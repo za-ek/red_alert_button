@@ -1,0 +1,53 @@
+.red_alert_button {height:140px;width:70px;margin-left:30px;}
+.red_alert_button {cursor:pointer;}
+.red_alert_button > .button_btn  {height:60px;}
+.red_alert_button > .button_btn > div {width:60px;position:absolute;background-color:#f00;border:1px solid #000;}
+.red_alert_button > .button_btn > .button_btn_top {height:30px;border-radius:60px / 30px;z-index:100;}
+.red_alert_button > .button_btn > .button_btn_body {height:30px;margin-top:15px;z-index:99;border-bottom:0;}
+.red_alert_button > .button_btn > .button_btn_bottom {height:30px;border-radius:60px / 30px;z-index:98;margin-top:30px;}
+
+.red_alert_button > .button_btn:hover > .button_btn_top {-webkit-box-shadow: inset 0 0 17px -4px rgba(0,0,0,0.75);-moz-box-shadow: inset 0 0 17px -4px rgba(0,0,0,0.75);box-shadow: inset 0 0 17px -4px rgba(0,0,0,0.75);}
+.red_alert_button > .button_base {margin-top:-30px;}
+.red_alert_button > .button_base > .button_base_top {z-index:97;}
+
+.red_alert_button > .button_base > .button_base_top,
+.red_alert_button > .button_base > .button_base_bottom {
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    position:absolute;
+    width:100px;
+    height:40px;
+    border:1px solid #000;
+    margin-left:-20px;
+    background-color:#8c6060;
+}
+
+.red_alert_button > .button_base > .button_base_body {
+    height:30px;
+    z-index:96;
+    width:101px;
+    background-color:#8c6060;
+    margin:40px 0 0 -27.5px;
+    position:absolute;
+    border-left:1px solid #333;
+    -webkit-box-shadow: inset 0 5px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0 5px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: inset 0 5px 17px -4px rgba(0,0,0,0.75);
+}
+.red_alert_button > .button_base > .button_base_right {
+    z-index:196;
+    position:absolute;
+    background-color:#8c6060;
+    -webkit-transform: skewY(-70deg);
+    -moz-transform: skewY(-70deg);
+    -o-transform: skewY(-70deg);
+    width:15px;height:30px;
+    margin:21px 0 0 72px;
+    -webkit-box-shadow: inset 0 5px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0 5px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: inset 0 5px 17px -4px rgba(0,0,0,0.75);
+    border-top:1px solid #000;
+    border-left:1px solid #444;
+}
+.red_alert_button > .button_base > .button_base_bottom {z-index:95;margin-top:30px;}
