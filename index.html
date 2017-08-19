@@ -1,19 +1,10 @@
 <link rel="stylesheet" href="css/style.css">
 
-<div class="red_alert_button" id="button">
-    <div class="button_btn">
-        <div class="button_btn_top"></div>
-        <div class="button_btn_body"></div>
-        <div class="button_btn_bottom"></div>
-    </div>
-    <div class="button_base">
-        <div class="button_base_top"></div>
-        <div class="button_base_body"></div>
-        <div class="button_base_right"></div>
-        <div class="button_base_bottom"></div>
-    </div>
-</div>
+<button onclick="alert('Button clicked');" id="some_button">Click me</button>
 
+<script src="js/redAlertButton.js"></script>
 <script>
-    // document.getElementById('button').addEventListener('click', function() {alert('Red alert!');});
+    window.addEventListener('load', function() {
+        makeRedAlertButton(document.getElementById('some_button'));
+    });
 </script>
