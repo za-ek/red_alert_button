@@ -1,0 +1,22 @@
+{
+  "name": "red_alert_button",
+  "homepage": "https://github.com/za-ek/red_alert_button",
+  "authors": [
+    "za-ek <tz@za-ek.ru>"
+  ],
+  "description": "Mark you ugly button as really important action",
+  "main": "js/redAlertButton.js",
+  "keywords": [
+    "button",
+    "javascript",
+    "effect"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
